@@ -9,6 +9,7 @@ function App() {
     <p>Something in the way</p>
     <p>Tears in Heaven</p>
     <button>Click Me!</button>
+    <a href="https://google.com">Click Me</a>
     </>
   )
 }
