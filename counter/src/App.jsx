@@ -31,9 +31,12 @@ function App() {
       <h1>Counter App</h1>
       <h2>Counter Value: {counter}</h2>
 
-      <button onClick={addValue}>Add Value</button>
+      <button onClick={addValue}>Add Value: {counter}</button>
       <br /> <br />
-      <button onClick={removeValue}>Decrease Value</button>
+      <button onClick={removeValue}>Decrease Value {counter}</button>
+
+      <br /> <br />
+      <p>Count Here Also: {counter}</p>
     </>
   )
 }
