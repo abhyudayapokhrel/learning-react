@@ -10,11 +10,19 @@ function App() {
  const addValue = () =>{
     //counter++;
     // counter value increases but is not shown in the DOM
-    setCounter(counter+1)
+    if(counter<=19)
+      setCounter(counter+1)
+    else{
+      alert("TOO MUCH")
+    }
  }
 
  const removeValue = () =>{
-  setCounter(counter-1)
+  if(counter>=1)
+    setCounter(counter-1)
+  else{
+    alert("WHY SO NEGATIVE")
+  }
  }
 
 
