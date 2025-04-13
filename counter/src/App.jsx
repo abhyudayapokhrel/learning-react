@@ -34,6 +34,7 @@ function App() {
       <button onClick={addValue}>Add Value: {counter}</button>
       <br /> <br />
       <button onClick={removeValue}>Decrease Value {counter}</button>
+      <button onClick={removeValue}>Decrease Value {counter}</button>
       <button>Eat 5 star: Do Noting</button>
       <button>Eat 5 star: Do Noting</button>
 
