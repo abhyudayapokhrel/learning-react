@@ -28,7 +28,7 @@ function App() {
 
   return (
     <>
-      <h1>Counter App | Abhyudaya</h1>
+      <h1>Counter App | Abhyudaya Pokhrel</h1>
       <h2>Counter Value: {counter}</h2>
 
       <button onClick={addValue}>Add Value: {counter}</button>
