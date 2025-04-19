@@ -9,12 +9,13 @@ function App() {
     username: "abhyudaya",
     age: 21
   }
+  let newArray = [1, 2, 3, 4];
 
   return (
     <>
       <h1 className='bg-green-400 text-black p-4 rounded-xl mb-4'>Tailwind Test</h1>
-      <Card name="Abhyudaya Pokhrel" someObj = {myObj}/>
-      
+      <Card userName="Abhyudaya Pokhrel" someObj = {myObj} someArr = {newArray}/>
+      <Card userName="Kriti"/>
     </>
   )
 }
