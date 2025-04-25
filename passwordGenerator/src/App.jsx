@@ -24,7 +24,7 @@ function App() {
 
   return (
     <div className='w-full max-w-md nx-auto shadow-md rounded-lg px-4 my-8 text-orange-500 bg-gray-800'>
-      <h1 className='text-4xl text-center text-white'>Password Genrator</h1>
+      <h1 className='text-4xl text-center text-white'>!!!Password Genrator!!!</h1>
 
     </div>
   )
